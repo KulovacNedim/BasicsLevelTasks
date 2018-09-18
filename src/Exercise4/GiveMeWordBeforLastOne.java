@@ -23,7 +23,7 @@ public class GiveMeWordBeforLastOne {
 		String safeWord = "";
 		String word = "";
 		
-		for (int i = 0; i < sentence.length(); i++) {
+		for (int i = 0; i < sentence.trim().length(); i++) {
 			if (sentence.charAt(i) == " ".charAt(0)) {
 				safeWord = word;
 				word = "";
